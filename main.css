@@ -1,0 +1,422 @@
+/*Скидування дефолтних налаштувань по методу Еріка Меєра*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+/*********Кінець скидування***************/
+/*********Header-nav begin*******************/
+
+.content{
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  line-height: 1.25;
+}
+#head{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Poppins";  
+}
+nav a{
+  margin: 9px;
+}
+#logo{
+ margin: 23px 0;
+}
+nav{
+  margin-right: 53px;
+  margin-top: 29px;
+}
+nav a:hover{
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
+}
+/*********Header-nav end*******************/
+/*********Header begin*******************/
+#capsula{
+  background: url(desk.png);
+}
+#section-header{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#motto{
+  color: #fff;
+  font-size: 70px;
+  font-family: "LibreBaskerville";
+  text-align: center;
+  padding: 157px 218px 43px 158px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+}
+.btn {
+  color: #fff;
+  border: 0 solid transparent;
+  border-radius: 24px;
+  padding: 12px 42px;
+  font-size: 16px;
+  font-family: "Poppins";
+  background-color: rgb(252, 95, 69);
+  margin-left: 479px;
+}
+.header-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 83px 160px 172px 143px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.header-img div>div{
+  margin-top: 27px
+}
+.header-img-1{
+  color: rgb(53,199,149);
+  margin-left: 23px;
+}
+.header-img-2{
+  color: rgb(182,128,246);
+  margin-left: 35px;
+}
+.header-img-3{
+  color: rgb(254,186,95);
+  margin-right: 68px;
+}
+.header-img:after{
+
+}
+/*********Header end*******************/
+/*********About us begin*******************/
+#about-us {
+  padding-top: 150px;
+}
+#about-us .content{
+  position: relative;
+}
+.left{
+  display: block;
+}
+.right{
+  border: 1px solid rgb(245,245,245);
+  display: block;
+  width: 550px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  line-height: 1.5;
+  color: rgb(97, 97, 97);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 196px;
+  left: 500px;
+  background: #fff;
+  z-index: 1;
+  margin-top: 60px;
+}
+.right>div:first-child{
+  background: url(img/01.png) no-repeat;
+  background-position: top left; 
+  padding: 75px 80px 50px 80px; 
+}
+.right span{
+  display: block;
+  font-size: 50px;
+  font-family: "LibreBaskerville";
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+#underline{
+  background: url(img/lines.png);
+  padding-top:2px;
+}
+/*********About us end*******************/
+/*********Our focus begin****************/
+#our-focus, #our-team{
+  margin-top: 40px;
+}
+#our-focus .content,  #our-team .content{
+  background: rgb(247, 247, 247);
+  background-position: top center;
+}
+.center, .center-team {
+  background: url(img/02.png) no-repeat;
+  background-position: center top;
+  text-align: center;
+  padding-top: 135px;
+}
+.center h1, .center-team h1{
+  font-size: 50px;
+  font-family: "LibreBaskerville", "Playfair Display";
+  margin-bottom: 20px;
+}
+.center p, .center-team p{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  margin-bottom: 20px
+}
+.skills, .members{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding-top: 55px;
+  margin-left: 115px;
+}
+.view{
+  text-align: center;
+  font-size: 15px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  line-height: 1.667;
+  padding:40px 20px 20px 20px;
+}
+.view h2{
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(49, 49, 49);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+#member-1 .view{
+
+}
+.skilss-bgc{
+  background-color: #fff;
+  margin-right: 20px;
+  padding-top: 50px;
+}
+#skills-1 .logo{
+  background: url(img/focus-img1.png) no-repeat;
+}
+#skills-2 .logo{
+  background: url(img/focus-img2.png) no-repeat;
+}
+#skills-3 .logo{
+  background: url(img/focus-img3.png) no-repeat;
+}
+#skills-4 .logo{
+  background: url(img/focus-img4.png) no-repeat;
+}
+#skills-1 .fotter-line{
+  background: url(img/line.png);
+}
+#skills-2 .fotter-line{
+  background: url(img/line-copy.png);
+}
+#skills-3 .fotter-line{
+  background: url(img/line-copy2.png);
+}
+#skills-4 .fotter-line{
+  background: url(img/line-copy3.png);
+}
+.fotter-line{
+  margin-top: 10px;
+  padding-top: 2px;
+}
+#video{
+  margin-top:50px;
+  background: url(img/video-table.png);
+}
+#video-header{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 50px;
+}
+
+#video-motto, .video-control{
+  color: #fff;
+  font-size: 32px;
+  font-family: "Poppins";
+  text-align: center;
+  padding: 100px 200px 43px 158px;
+  word-spacing: 5px;
+}
+.video-control{
+  font-size: 12px;
+  padding: 0px 200px 0px 158px;
+}
+.video-btn{
+  margin-bottom: 20px;
+}
+/*********Our focus end****************/
+/*********Portfolio begin****************/
+#portfolio .content{
+  background: url(img/03.png) no-repeat;
+  background-position: top center;
+  text-align: center;
+  padding-top:150px;
+}
+#portfolio-moto{
+  margin-bottom: 50px;
+}
+#portfolio-moto h1{
+  font-size: 50px;
+  font-family: "LibreBaskerville";
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#portfolio-moto p{
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+}
+.portfolio-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+.magic{
+  position: relative;
+  width: 30%;
+}
+.portfolio-container>div{
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+.overlay, .overlay-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s ease;
+}
+.portfolio-container div:first-child:hover .overlay {
+  height: 25%;
+}
+.portfolio-container div:hover .overlay-bottom {
+  height: 100%;
+}
+.plus, .btm {
+  white-space: nowrap; 
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.overlay-bottom{
+  margin-bottom: 25px;
+}
+.btm{
+  padding-bottom: 57px;
+}
+.overlay{
+  background-color: #fff;
+}
+/*********Portfolio End****************/
+/*********Our Taem begin****************/
+.center-team{
+  background: url(img/04.png) no-repeat;
+  background-position: top center;
+}
+.members{
+  display: flex;
+  justify-content: space-between;
+}
+.foto{
+  padding-top: 275px;
+}
+.member-bgc{
+  background-color: #fff;
+  width: 267px;
+}
+
+#member-1 .foto{
+  background: url(img/member1.png) no-repeat;
+}
+
+#member-2 .foto{
+  background: url(img/member1.png) no-repeat;
+}
+#member-3 .foto{
+  background: url(img/member1.png) no-repeat;
+}
+#member-4 .foto{
+  background: url(img/member1.png) no-repeat;
+}
+#member-1 .fotter-line{
+  background: url(img/line.png);
+}
+#member-2 .fotter-line{
+  background: url(img/line-copy.png);
+}
+#member-3 .fotter-line{
+  background: url(img/line-copy2.png);
+}
+#member-4 .fotter-line{
+  background: url(img/line-copy3.png);
+}
+.fotter-line{
+  margin-top: 10px;
+  padding-top: 2px;
+}
+#our-team-footer{
+  background: url(img/Statsbg.png);
+  margin-top: 75px;
+}
+#shudown{
+  background: rgba(0,0,0,.6);
+}
+#our-team-footer-common{
+  padding: 150px 260px 150px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.graf{
+  margin-bottom: 1px; 
+}
