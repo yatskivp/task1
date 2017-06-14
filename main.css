@@ -340,15 +340,17 @@ nav a:hover{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
   position: relative;
+  padding: 1px 1px 1px 1px;
 }
 .magic{
   position: relative;
   width: 30%;
 }
 .portfolio-container>div{
-  margin-right: 10px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
 .overlay, .overlay-bottom {
   width: 100%;
@@ -361,7 +363,7 @@ nav a:hover{
   height: 0;
   transition: 0.5s ease;
 }
-.portfolio-container div:first-child:hover .overlay {
+.portfolio-container div:hover .overlay {
   height: 25%;
 }
 .portfolio-container div:hover .overlay-bottom {
@@ -450,29 +452,53 @@ nav a:hover{
   justify-content: space-between;
   background: url('img/TeamBackground.png') no-repeat;
   text-align: left;
-  padding: 115px 240px 135px 105px;
+  /*padding: 115px 240px 135px 105px;*/
+  margin: auto;
+  position: relative;
 }
 .Team-block-for-member-1 #text{
   font-size: 14px;
   font-family: "Poppins";
   line-height: 1.5;
+  width: 600px;
+  margin-top: 50px;
+  margin-left: 70px;
+  padding: 50px 1px 80px 40px;
 }
 .Team-block-for-member-1 #text h3{
   font-size: 24px;
   margin-bottom: 25px;
 }
-.Team-block-for-member-1>div{
-  margin-left: 1px;
-}
+
 .Team-block-for-member-1 #to-links {
-  padding: 120px 1px 1px 1px;
+  padding: 130px 1px 1px 1px;
+  margin: 75px 1px 1px 1px;
 }
 .Team-block-for-member-1 #links {
-  padding: 95px 1px 1px 1px;
+  font-size: 12px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  padding: 110px 175px 1px 1px;
+  margin: 75px 0px 1px 1px;
 }
 .Team-block-for-member-1 #links>div{
-  margin-bottom: 5px;
+  margin-top: 5px;
 }
+div.vertical-line{
+  width: 2px;
+  background-color: #ececec;
+  height: 135px;
+  position: absolute;
+  top: 44%;
+  left: 76%;
+}
+#Team-block{
+  display: none;
+}
+ div:hover #Team-block{
+  display: block;
+}
+
 .fotter-line{
   margin-top: 10px;
   padding-top: 2px;
@@ -485,7 +511,9 @@ nav a:hover{
   background: rgba(0,0,0,.6);
 }
 #our-team-footer-common{
-  padding: 150px 260px 100px 250px;
+  padding: 100px 75px 50px 55px;
+  width: 50%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -508,6 +536,116 @@ nav a:hover{
   color: rgba(254, 254, 254, 0.702);
   margin-bottom: 25px
 }
-.stat{
 
+/*********Our Taem End****************/
+/*********Work Staps begin****************/
+
+#work-steps {
+  background: url(img/05.png) no-repeat;
+  background-position: top center;
+  position: relative;
+  padding: 50px 0;
+  margin-top: 25px;
+  padding-top: 125px;
 }
+#work-steps h2.title {
+  font-size: 50px;
+  font-family: "LibreBaskerville";
+  text-align: center;
+  font-weight: bolder;
+}
+#work-steps .sub-title {
+  text-align: center;
+   font-size: 18px;
+   font-family: "Poppins";
+   color: rgb(97, 97, 97);
+}
+#work-steps .container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+#work-steps .container .bg-item {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#work-steps .container .bg-item:nth-child(1) {
+  background-image: url('img/bg11.png');
+} 
+#work-steps .container .bg-item:nth-child(2) {
+  background-image: url('img/bg22.png');
+} 
+#work-steps .container .bg-item:nth-child(3) {
+  background-image: url('img/bg33.png');
+} 
+#work-steps .container .bg-item:nth-child(4) {
+  background-image: url('img/bg44.png');
+}
+#work-steps .feature-blocks-container {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+}
+#work-steps .feature-blocks-container .feature-block {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+#work-steps .feature-blocks-container .feature-block .number {
+  width: 50px;
+  padding: 15px;
+  color: lightgrey;
+  font-size: 36px;
+  float: left;
+}
+#work-steps .feature-blocks-container .feature-block .text-content {
+  width: calc(100% - 100px);
+  padding: 10px 10px 10px 0;
+  float: left;
+  font-size: 14px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+}
+.text-content h3{
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+#work-steps .feature-blocks-container .feature-block:nth-child(1) {
+  margin-left: -40%;
+  border-bottom-color: #FF0000;
+}
+#work-steps .feature-blocks-container .feature-block:nth-child(2) {
+  margin-left: 70%;
+  border-bottom-color: #4CAF50;
+}
+#work-steps .feature-blocks-container .feature-block:nth-child(3) {
+  margin-left: -40%;
+  border-bottom-color: #9C27B0;
+}
+#work-steps .feature-blocks-container .feature-block:nth-child(4) {
+  margin-left: 70%;
+  border-bottom-color: #FF9800;
+}
+
+@media (max-width: 991px) {
+  #work-steps .feature-blocks-container .feature-block {
+    margin: 15px 0 !important;
+    width: 100%;
+  }
+  #work-steps .container .bg-item {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #work-steps .container {
+    width: 100% !important;
+  }
+}
+/*********Work Staps end****************/
