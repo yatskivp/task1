@@ -1,0 +1,221 @@
+@media (max-width: 1200px) {
+    .content{
+     width:100%;
+  }
+
+    .right{
+      left:40%;
+    }
+
+  .bar-testimonials-content{
+      display: block;
+      margin: 0 auto;
+    }
+    .melina-img{
+      display: none;
+    }
+    .bar-testimonials {
+      top: 103%;
+      left: 80%;
+  }
+    #portfolio>.content{
+       padding-top: 60px;
+    }
+    .portfolio-container{
+      display: block;
+    }
+    .portfolio-container .magic{
+      width: 360px;
+      display: inline-block;
+
+    }
+    .portfolio-container .magic:last-child{
+      display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .content{
+     width:100%;
+  }
+    nav label{
+      display: inline-block;
+      font-family: "Poppins";
+    }
+    nav > ul {
+       display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+      display: block;
+    }
+    ul>li{
+      display:block;
+    }
+    nav a:hover{
+      border-bottom: none;
+      text-decoration: underline;
+    }
+
+    #about-us {
+       padding-top: 30px;
+    }
+
+    .right{
+      left:25%;
+    }
+
+    .view{
+      padding: 15px 20px 40px 20px;
+    }
+
+    .skills{
+      display: block;
+      width:75%;
+    }
+    .skills .logo{
+      margin-left: 46%
+    }
+
+    .skilss-bgc{
+      margin-top: 15px;
+    }
+    .center, .center-team{
+      padding-top: 65px
+    }
+    .center h1, .center-team h1{
+      font-size: 40px;
+    }
+
+    #video-motto{
+      top: 16%;
+      left: 25%;
+    }
+    .video-btn{
+      top: 35%;
+      left: 45%;
+    }
+    .video-instr{
+      top: 65%;
+      left: 42%;
+    }
+
+    #our-team{
+      margin-top: 20px;
+    }
+    .members{
+      display: block;
+    }
+    .member-bgc{
+      display: inline-block;
+      margin-bottom: 15px
+    }
+    div:hover #Team-block{
+      display: none;
+    }
+    #work-steps .feature-blocks-container{
+       position: relative;
+    }
+    #work-steps .feature-blocks-container .feature-block {
+      margin: 15px 0 !important;
+      width: 100%;
+    }
+    #work-steps .container .bg-item {
+      display: none;
+    }
+
+    .proposition{
+      display: block;
+    }
+    .bar-testimonials {
+      top: 103%;
+      left: 75%;
+    }
+
+}
+
+@media (max-width: 740px) {
+   #motto{
+    font-size: 35px;
+   }
+   .btn  button{
+    padding: 10px 30px;
+    font-size: 12px;
+   }
+   .header-img{
+    font-size: 14px;
+   }
+   .header-img div>div{
+    margin-top: 18px
+    }
+    .left{
+      display:none;
+    }
+    .right{
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .center p, .center-team p{
+      font-size: 14px
+    }
+
+    #video-capsula{
+      display: none;
+    }
+
+    .portfolio-container .magic{
+      width: 300px;
+    }
+    .our-team-footer-common>div{
+      margin-left: 15px;
+    }
+    .num{
+      font-size: 16px;
+    }
+
+    .desc{
+      font-size: 11px;
+    }
+
+    #work-steps{
+      padding-top: 33px;
+    }
+
+    #work-steps .container {
+      width: 100% !important;
+    }
+
+    #work-steps h2.title {
+      font-size: 40px;
+    }
+
+    #work-steps .sub-title {
+      font-size: 16px;
+    }
+
+    .btn-price{
+      font-size: 13px;
+      padding: 8px 35px;
+    }
+    .bar-testimonials {
+      top: 103%;
+      left: 70%;
+    }
+    .melina-motto blockquote:after{
+      top: -90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .btn  button{
+    padding: 8px 30px;
+    font-size: 10px;
+   }
+   .skills{
+      display: block;
+      width:75%;
+    }
+
+}

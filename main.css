@@ -62,6 +62,22 @@ a{
   font-size: 14px;
   font-family: "Poppins";  
 }
+input[type="checkbox"] {
+    display: none;
+}
+nav label {    
+    display: none;   
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav label:hover{
+    color: #32BA8C;
+}
+nav li{
+  display: inline-block;
+  vertical-align: top;
+}
 nav a{
   margin: 9px;
 }
@@ -73,7 +89,7 @@ nav{
   margin-top: 29px;
 }
 nav a:hover{
-  padding-bottom: 25px;
+  padding-bottom: 27px;
   border-bottom: 2px solid black;
 }
 /*********Header-nav end*******************/
@@ -98,17 +114,23 @@ nav a:hover{
 }
 .btn  button{
   color: #fff;
-  border: 0 solid transparent;
+  border: 2px solid transparent;
   border-radius: 24px;
   padding: 12px 42px;
   font-size: 16px;
   font-family: "Poppins";
   background-color: rgb(252, 95, 69);
+  transition: .7s;
 }
 .btn {
  text-align: center;
  margin-top: 50px;
  margin-bottom: 75px;
+}
+.btn button:hover{
+  color: rgb(252, 95, 69);
+  background-color: #fff;
+  border: 2px solid rgb(252, 95, 69);
 }
 .header-img{
   display: flex;
@@ -154,7 +176,6 @@ nav a:hover{
   line-height: 1.5;
   color: rgb(97, 97, 97);
   position: absolute;
-  top: 0px;
   right: 0px;
   bottom: 196px;
   left: 500px;
@@ -209,7 +230,10 @@ nav a:hover{
 }
 .logo{
   padding-top: 55px;
-  margin-left: 115px;
+  margin-left: 40%;
+}
+.logo:last-child{
+  margin-left: 0;
 }
 .view{
   text-align: center;
@@ -314,6 +338,7 @@ nav a:hover{
   left: 42%;
   margin-bottom: 20px;
 }
+
 /*********Our focus end****************/
 /*********Portfolio begin****************/
 #portfolio .content{
@@ -353,7 +378,7 @@ nav a:hover{
   margin-bottom: 20px;
 }
 .overlay, .overlay-bottom {
-  width: 100%;
+  width: 360px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -452,7 +477,6 @@ nav a:hover{
   justify-content: space-between;
   background: url('img/TeamBackground.png') no-repeat;
   text-align: left;
-  /*padding: 115px 240px 135px 105px;*/
   margin: auto;
   position: relative;
 }
@@ -633,19 +657,265 @@ div.vertical-line{
   border-bottom-color: #FF9800;
 }
 
-@media (max-width: 991px) {
-  #work-steps .feature-blocks-container .feature-block {
-    margin: 15px 0 !important;
-    width: 100%;
-  }
-  #work-steps .container .bg-item {
-    display: none;
-  }
+/*********Work Staps end****************/
+/*********Pricing table begin***********/
+#pricing-table{
+  background: rgb(247, 247, 247);
+  font-family: "Poppins";
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding-bottom: 100px;
+}
+.pricing-header, .testimonials-header{
+  background: url(img/06.png) no-repeat;
+  background-position: top center;
+  padding-top: 30px;
+  font-size: 20px; 
+}
+.pricing-header h1, .testimonials-header h1{
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+.pricing-header p, .testimonials-header p{
+  margin-top: 25px;
+}
+.proposition{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+  padding: 0 25px;
+}
+.bg-price-column h1{
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 25px 0;  
+}
+.price{  
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 34px;
+}
+.price p:first-child{
+  font-size: 20px;
+}
+.starter .price{
+  background: url(img/bgGreen.png) no-repeat;
+  background-position: top center;
+}
+.starter{
+  border-top: 3px solid #36C796;
+}
+.unlimate .price{
+  background: url(img/bgred.png) no-repeat;
+  background-position: top center;
+}
+.unlimate{
+  border-top: 3px solid #FC5F44;
+}
+.professional .price{
+  background: url(img/bgP.png) no-repeat;
+  background-position: top center;
+}
+.professional{
+  border-top: 3px solid #b37df6;
+}
+.bg-price-column{
+  background: #fff;
+  padding: 0 70px;
+  padding-bottom: 50px;
+}
+.about-price{
+  padding: 25px 0;
+}
+.about-price p{
+  margin-bottom: 10px;
+}
+.about-price p:last-child{
+  margin-bottom: 0;
+}
+.about-price p:nth-child(3), .about-price p:nth-child(4),.about-price p:nth-child(5){
+  margin-bottom: 5px;
+ 
+}
+.about-price span{
+  font-weight: bolder;
+}
+.btn-price{
+  font-size: 16px;
+  font-family: "Poppins";
+  border-radius: 30px;
+  padding: 10px 45px;
+  transition: .7s;
+}
+.starter .btn-price{
+  background: #fff;
+  color: #36C796;
+  border: 2px solid #36C796;
+}
+.starter .btn-price:hover{
+  background: #36C796;
+  color: #fff;
+}
+.unlimate .btn-price{
+  background: #FC5F44;
+  color: #fff;
+  border: 2px solid #FC5F44;
+}
+.unlimate .btn-price:hover{
+  background: #fff;
+  color: #FC5F44;
+}
+.professional .btn-price{
+  background: #fff;
+  color: #B37DFB;
+  border: 2px solid #B37DFB;
+}
+.professional .btn-price:hover{
+  background: #B37DFB;
+  color: #fff;
+}
+/*********Pricing table end***********/
+/*********Testimonials begin***********/
+#testimonials{
+  background: url(img/conferenceroom.png);
+  font-family: "Poppins";
+  color: #fff;
+  text-align: center;
+}
+.testimonials-shudown{
+  background: rgba(0,0,0,0.8);
+  padding-bottom: 100px;
+}
+.testimonials-header{
+  background: url(img/07.png) no-repeat;
+  background-position: top center;
+  margin-bottom: 75px;
+}
+.bar-testimonials-content{
+  display: flex;
+}
+.central-testimonials{
+  position: relative;
+}
+.melina-motto{
+  background: #fff;
+  height: 100%;
+  color:#000;
+  margin-top: 60px;
+  padding: 25px 95px 25px 65px;
+  text-align: left;
+  border-bottom: 2px solid rgb(252, 95, 69);
+  padding-bottom: 55px;
+}
+.melina-motto blockquote{
+  position: relative;
+  font-size: 15px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  line-height: 1.8;
+}
+.melina-motto blockquote:before, .melina-motto blockquote:after {
+  content: "\201D"; 
+  opacity: .6;
+  font-family: Georgia, serif;
+  font-size: 200px;
+  font-weight: bold;
+  color: #f2f2f2;
+  position: absolute;
+  left: 95%;
+  top: 88%;
+}
+.melina-motto blockquote:after {
+  content: "\201C"; 
+  left: -5%;
+  top:-112%;
+}
+.melina-motto p:nth-child(2){
+  font-size: 40px;
+  font-family: "Tangerine";
+  color: rgb(39, 39, 39);
+  margin-top: 15px;
+}
+.melina-motto p:nth-child(3){
+   font-size: 18px;
+   font-family: "Poppins";
+   color: rgb(39, 39, 39);
+   margin-top: 5px;
+}
+.melina-motto p:nth-child(4){
+    font-size: 13px;
+    font-family: "Poppins";
+    color: rgb(252, 95, 69);
+    margin-top: 5px;  
+}
+.melina-img{
+  border: 7px solid grey;
+}
+.bar-testimonials {
+  position: absolute;
+  top:91%;
+  left:88%; 
 }
 
-@media (max-width: 767px) {
-  #work-steps .container {
-    width: 100% !important;
+.button {
+  float: left;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 12px;
+  height: 11px;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
   }
+.button:hover {
+  border-color: rgb(252, 95, 69);
+  cursor: pointer;
 }
-/*********Work Staps end****************/
+.button:hover a{
+  display: block;
+}
+ .button a {
+  background: rgb(252, 95, 69);
+  border-radius: 8px;
+  width: 6px;
+  height: 6px;
+  margin: 2.4px auto;
+  display: none;
+}
+/*********Testimonials end***********/
+/*********Why select us? begin***********/
+.why-us{
+  background: url(img/08.png) no-repeat;
+  background-position: top center;
+  font-family: "Poppins";
+}
+.why-us-header{
+  text-align: center;
+  color: black;
+  margin-bottom: 50px;
+}
+.why-us-header h1{
+   font-size: 32px;
+   font-weight: bolder;
+   margin-bottom: 15px;
+   padding-top: 40px;
+}
+.why-us-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.why-us-content div{
+  margin-right: 1px;
+}
+.why-us-content span{
+  font-size: 18px;
+  color: rgb(39, 39, 39);
+  font-weight: bolder;
+}
+.why-us-content p{
+  font-size: 15px;
+  margin-top: 10px;
+}
