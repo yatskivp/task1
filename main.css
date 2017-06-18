@@ -82,10 +82,10 @@ nav a{
   margin: 9px;
 }
 #logo{
- margin: 23px 0;
+ margin: 22px 32px;
 }
 nav{
-  margin-right: 53px;
+  margin-right: 21px;
   margin-top: 29px;
 }
 nav a:hover{
@@ -99,6 +99,7 @@ nav a:hover{
 }
 #section-header{
   background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 73px;
 }
 
 #motto{
@@ -106,7 +107,7 @@ nav a:hover{
   font-size: 70px;
   font-family: "LibreBaskerville";
   text-align: center;
-  padding: 157px 0px 0px 0px;
+  padding: 157px 0px 0px 28px;
   margin: 0 auto;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -116,7 +117,7 @@ nav a:hover{
   color: #fff;
   border: 2px solid transparent;
   border-radius: 24px;
-  padding: 12px 42px;
+  padding: 10px 40px;
   font-size: 16px;
   font-family: "Poppins";
   background-color: rgb(252, 95, 69);
@@ -124,8 +125,8 @@ nav a:hover{
 }
 .btn {
  text-align: center;
- margin-top: 50px;
- margin-bottom: 75px;
+ margin-top: 42px;
+ margin-bottom: 83px;
 }
 .btn button:hover{
   color: rgb(252, 95, 69);
@@ -135,9 +136,9 @@ nav a:hover{
 .header-img{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 71%;
-  margin: auto;
+  justify-content: space-around;
+  width: 68%;
+  margin: 0 auto;
   text-align: center;
   font-size: 18px;
   font-family: "Poppins";
@@ -170,15 +171,14 @@ nav a:hover{
 .right{
   border: 1px solid rgb(245,245,245);
   display: block;
-  width: 550px;
-  font-size: 15px;
+  width: calc(54% + 3px);
+  font-size: 18px;
   font-family: "Myriad Pro";
   line-height: 1.5;
   color: rgb(97, 97, 97);
   position: absolute;
-  right: 0px;
-  bottom: 196px;
-  left: 500px;
+  bottom: 80px;
+  left: calc(43% + 3px);
   background: #fff;
   z-index: 1;
   margin-top: 60px;
@@ -186,15 +186,17 @@ nav a:hover{
 .right>div:first-child{
   background: url(img/01.png) no-repeat;
   background-position: top left; 
-  padding: 75px 80px 50px 80px; 
+  padding: 75px 103px 59px 80px;
+  height: 413px;
 }
 .right span{
   display: block;
-  font-size: 50px;
+  font-size: 55px;
   font-family: "LibreBaskerville";
   color: rgb(49, 49, 49);
   font-weight: bold;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
 }
 #underline{
   background: url(img/lines.png);
@@ -202,38 +204,43 @@ nav a:hover{
 }
 /*********About us end*******************/
 /*********Our focus begin****************/
-#our-focus, #our-team{
-  margin-top: 40px;
-  background: rgb(247, 247, 247);
-}
-.center, .center-team {
-  background: url(img/02.png) no-repeat;
-  background-position: center top;
+.title{
+  margin-bottom: 78px;
   text-align: center;
-  padding-top: 135px;
 }
-.center h1, .center-team h1{
-  font-size: 50px;
-  font-family: "LibreBaskerville", "Playfair Display";
-  margin-bottom: 20px;
+.title h1{
+  font-size: 55px;
+  font-family: "LibreBaskerville";
+  font-weight: 900;
+  margin-bottom: 23px;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
 }
-.center p, .center-team p{
+.title p{
   font-size: 18px;
   font-family: "Poppins";
   color: rgb(97, 97, 97);
-  margin-bottom: 20px
 }
-.skills, .members{
+#our-focus{
+  margin-top: 145px;
+  background: rgb(247, 247, 247);
+}
+#our-focus>.content{
+  background: url(img/02.png) no-repeat;
+  background-position: center top;
+}
+
+.skills{
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: calc(95%);
 }
 .logo{
-  padding-top: 55px;
-  margin-left: 40%;
-}
-.logo:last-child{
-  margin-left: 0;
+  padding-top: 56px;
+  margin: 0 auto;
+  width: calc(21%)
 }
 .view{
   text-align: center;
@@ -241,20 +248,20 @@ nav a:hover{
   font-family: "Poppins";
   color: rgb(97, 97, 97);
   line-height: 1.667;
-  padding:40px 20px 40px 20px;
+  padding: 0 20px 49px 20px;
 }
 .view h2{
   font-size: 20px;
   font-family: "Poppins";
   color: rgb(49, 49, 49);
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 23px;
   font-weight: bolder;
 }
 .skilss-bgc{
   background-color: #fff;
-  margin-right: 20px;
-  padding-top: 50px;
+  padding-top: 66px;
+  width: calc(23% + 2px);
 }
 .skills div:last-child{
   margin-right: 0;
@@ -289,16 +296,16 @@ nav a:hover{
 }
 
 #video-capsula {
-  margin-top: 50px;
+  margin-top: 150px;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .background-wrap{
   position:absolute;
   width: 100%;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
   top: 0;
   left: 0;
@@ -311,71 +318,45 @@ nav a:hover{
   min-width: 100%;
   min-height: 100%;
 }
-#video-motto,.video-instr,.video-btn{
+.video-desc{
   position: absolute;
   z-index: 1000;
+  font-family: "Poppins";
+  text-align: center;
+  color: #fff;
+  top: 30%;
+  left: calc(35% + 2px);
 }
-
 #video-motto{
-  top:25%;
-  left:31%;
-  color: #fff;
-  font-size: 32px;
-  font-family: "Poppins";
-  text-align: center;
-  word-spacing: 5px;
-}
-.video-instr{
-  top: 78%;
-  left: 40%;
-  font-family: "Poppins";
-  font-size: 12px;
-  color: #fff;
-  text-align: center;
+  font-size: 29px;  
+  letter-spacing: 1px;
 }
 .video-btn{
-  top: 50%;
-  left: 42%;
-  margin-bottom: 20px;
+  margin: 36px 0;
+}
+.video-instr{
+  font-size: 15px;
 }
 
 /*********Our focus end****************/
 /*********Portfolio begin****************/
-#portfolio .content{
+#portfolio > .content{
   background: url(img/03.png) no-repeat;
   background-position: top center;
-  text-align: center;
-  padding-top:150px;
 }
-#portfolio-moto{
-  margin-bottom: 50px;
-}
-#portfolio-moto h1{
-  font-size: 50px;
-  font-family: "LibreBaskerville";
-  font-weight: 500;
-  margin-bottom: 25px;
-}
-#portfolio-moto p{
-  font-size: 18px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);
-}
+
 .portfolio-container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: auto;
+  margin: 0 auto;
   position: relative;
-  padding: 1px 1px 1px 1px;
+  width: calc(95%);
 }
 .magic{
   position: relative;
-  width: 30%;
-}
-.portfolio-container>div{
-  margin-bottom: 20px;
+  margin-bottom: 18px;;
 }
 .overlay, .overlay-bottom {
   width: 360px;
@@ -401,7 +382,9 @@ nav a:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: 'Poppins';
+  text-align: center;
 }
 .overlay-bottom{
   margin-bottom: 25px;
@@ -409,25 +392,39 @@ nav a:hover{
 .btm{
   padding-bottom: 57px;
 }
+.btm>div{
+  width: 360px;
+  padding: 22px 0;
+  padding-bottom: 17px;
+}
 .overlay{
   background-color: #fff;
 }
 /*********Portfolio End****************/
 /*********Our Taem begin****************/
-.center-team{
+#our-team {
+  margin-top: calc(9% + 15px);
+  background: rgb(247, 247, 247);
+}
+#our-team .title h1{
+  margin-top: 7px;
+} 
+#our-team .content{
   background: url(img/04.png) no-repeat;
   background-position: top center;
 }
 .members{
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
+  width: calc(96%);
 }
 .foto{
-  padding-top: 275px;
+  height: 270px;
 }
 .member-bgc{
   background-color: #fff;
-  width: 267px;
+  width: 263px;
 }
 
 #member-1 .foto{
@@ -454,22 +451,25 @@ nav a:hover{
 #member-4 .fotter-line{
   background: url(img/line-copy3.png);
 }
-.members .view{
-  padding: 10px 20px 10px 20px;
+ .view-member{
+  padding: 12px 20px 10px 33px;
+  text-align: center;
+  font-family: 'Poppins';
 }
-.members .view h2{
+ .view-member h2{
   margin-bottom: 5px;
+  font-size: 18px;
 }
-#member-1 .view h2{
+#member-1 .view-member h2{
   color: #FC5F44;
 }
-#member-2 .view h2{
+#member-2 .view-member h2{
   color: #36c796
 }
-#member-3 .view h2{
+#member-3 .view-member h2{
   color: #B37DF6
 }
-#member-4 .view h2{
+#member-4 .view-member h2{
   color: #FEBA60
 }
 .Team-block-for-member-1{
@@ -479,71 +479,74 @@ nav a:hover{
   text-align: left;
   margin: auto;
   position: relative;
+  padding-top: calc(3% + 15px);
+  padding-left: calc(4% + 4px);
+  height: 331px;
 }
 .Team-block-for-member-1 #text{
   font-size: 14px;
   font-family: "Poppins";
-  line-height: 1.5;
-  width: 600px;
-  margin-top: 50px;
-  margin-left: 70px;
-  padding: 50px 1px 80px 40px;
+  line-height: 1.8;
+  width: 605px;
+  margin: auto;
+  letter-spacing: 0.1px;
 }
 .Team-block-for-member-1 #text h3{
-  font-size: 24px;
-  margin-bottom: 25px;
+  font-size: 22px;
+  margin-bottom: 22px;
 }
 
 .Team-block-for-member-1 #to-links {
-  padding: 130px 1px 1px 1px;
-  margin: 75px 1px 1px 1px;
+  margin: auto 0;
+  padding-top: 60px;
+  padding-left: 78px;
 }
 .Team-block-for-member-1 #links {
   font-size: 12px;
   font-family: "Poppins";
   color: rgb(97, 97, 97);
-  padding: 110px 175px 1px 1px;
-  margin: 75px 0px 1px 1px;
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 80px;
 }
 .Team-block-for-member-1 #links>div{
-  margin-top: 5px;
+  margin-top: 11px;
+  font-size: 14px;
 }
 div.vertical-line{
   width: 2px;
   background-color: #ececec;
-  height: 135px;
+  height: 155px;
   position: absolute;
-  top: 44%;
-  left: 76%;
+  top: 47%;
+  left: calc(78% + 2px);
 }
 #Team-block{
-  display: none;
+  display: block;
+  padding-left: 17px;
 }
  div:hover #Team-block{
   display: block;
 }
 
-.fotter-line{
-  margin-top: 10px;
-  padding-top: 2px;
-}
 #our-team-footer{
   background: url(img/Statsbg.png);
-  margin-top: 75px;
+  margin-top: calc(12% + 3px);
 }
 #shudown{
   background: rgba(0,0,0,.6);
+  height: 464px;
 }
 #our-team-footer-common{
   padding: 100px 75px 50px 55px;
-  width: 50%;
+  width: calc(85% + 15px);
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 149px;
 }
 .graph{
-  margin-bottom: 25px;
-  margin-left: 5px;
+  margin-bottom: 26px;
 }
 .first-column, .second-column, .third-column, .fourth-column{
   text-align: center;
@@ -553,12 +556,15 @@ div.vertical-line{
   font-family: "Poppins";
   color: rgb(254, 254, 254);
   margin-bottom: 25px;
+  text-align: center;
+  margin-left: 8px;
 }
 .desc{
   font-size: 15px;
   font-family: "Poppins";
   color: rgba(254, 254, 254, 0.702);
-  margin-bottom: 25px
+  margin-bottom: 40px;
+  margin-left: 10px;
 }
 
 /*********Our Taem End****************/
@@ -568,29 +574,17 @@ div.vertical-line{
   background: url(img/05.png) no-repeat;
   background-position: top center;
   position: relative;
-  padding: 50px 0;
-  margin-top: 25px;
-  padding-top: 125px;
-}
-#work-steps h2.title {
-  font-size: 50px;
-  font-family: "LibreBaskerville";
-  text-align: center;
-  font-weight: bolder;
-}
-#work-steps .sub-title {
-  text-align: center;
-   font-size: 18px;
-   font-family: "Poppins";
-   color: rgb(97, 97, 97);
+  margin-top: 5px;
+  margin-bottom: calc(11% + 7px);
 }
 #work-steps .container {
-  width: 50%;
+  width: 46%;
   margin: 0 auto;
   position: relative;
+  margin-top: 10%;
 }
 #work-steps .container .bg-item {
-  height: 200px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -613,8 +607,8 @@ div.vertical-line{
   width: 100%;
 }
 #work-steps .feature-blocks-container .feature-block {
-  width: 350px;
-  height: 200px;
+  width: 460px;
+  height: 297px;
   background-color: #fff;
   border: 2px solid #f2f2f2;
   position: relative;
@@ -622,26 +616,29 @@ div.vertical-line{
 }
 #work-steps .feature-blocks-container .feature-block .number {
   width: 50px;
-  padding: 15px;
+  padding: 25px;
+  padding-left: 45px;
   color: lightgrey;
-  font-size: 36px;
+  font-size: 55px;
+  font-weight: bolder;
   float: left;
 }
 #work-steps .feature-blocks-container .feature-block .text-content {
-  width: calc(100% - 100px);
-  padding: 10px 10px 10px 0;
+  width: calc(56%);
+  padding: 29px 10px 10px 0;
   float: left;
   font-size: 14px;
+  line-height: 2;
   font-family: "Poppins";
   color: rgb(97, 97, 97);
 }
 .text-content h3{
   font-size: 20px;
   font-weight: bolder;
-  margin: 20px 0;
+  margin-top: 6px;
 }
 #work-steps .feature-blocks-container .feature-block:nth-child(1) {
-  margin-left: -40%;
+  margin-left: -54%;
   border-bottom-color: #FF0000;
 }
 #work-steps .feature-blocks-container .feature-block:nth-child(2) {
@@ -649,7 +646,7 @@ div.vertical-line{
   border-bottom-color: #4CAF50;
 }
 #work-steps .feature-blocks-container .feature-block:nth-child(3) {
-  margin-left: -40%;
+  margin-left: -54%;
   border-bottom-color: #9C27B0;
 }
 #work-steps .feature-blocks-container .feature-block:nth-child(4) {
@@ -661,32 +658,19 @@ div.vertical-line{
 /*********Pricing table begin***********/
 #pricing-table{
   background: rgb(247, 247, 247);
-  font-family: "Poppins";
-  color: rgb(49, 49, 49);
-  text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: calc(10%);
 }
-.pricing-header, .testimonials-header{
+.pricing-header{
   background: url(img/06.png) no-repeat;
   background-position: top center;
-  padding-top: 30px;
-  font-size: 20px; 
-}
-.pricing-header h1, .testimonials-header h1{
-  font-size: 32px;
-  font-weight: bolder;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-}
-.pricing-header p, .testimonials-header p{
-  margin-top: 25px;
 }
 .proposition{
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin-top: 70px;
-  padding: 0 25px;
+  padding: 0 30px;
+  font-family: "Poppins";
+  color: rgb(49, 49, 49);
 }
 .bg-price-column h1{
   font-size: 20px;
@@ -699,7 +683,10 @@ div.vertical-line{
   padding-bottom: 34px;
 }
 .price p:first-child{
-  font-size: 20px;
+  font-size: 24px;
+}
+.price p:last-child{
+  font-size: 14px;
 }
 .starter .price{
   background: url(img/bgGreen.png) no-repeat;
@@ -724,30 +711,30 @@ div.vertical-line{
 }
 .bg-price-column{
   background: #fff;
-  padding: 0 70px;
+  padding: 0 78px;
   padding-bottom: 50px;
 }
 .about-price{
-  padding: 25px 0;
+  padding: 33px 0;
 }
 .about-price p{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .about-price p:last-child{
   margin-bottom: 0;
 }
 .about-price p:nth-child(3), .about-price p:nth-child(4),.about-price p:nth-child(5){
-  margin-bottom: 5px;
+  margin-bottom: 16px;
  
 }
 .about-price span{
   font-weight: bolder;
 }
 .btn-price{
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Poppins";
   border-radius: 30px;
-  padding: 10px 45px;
+  padding: 10px 40px;
   transition: .7s;
 }
 .starter .btn-price{
@@ -783,32 +770,33 @@ div.vertical-line{
   background: url(img/conferenceroom.png);
   font-family: "Poppins";
   color: #fff;
-  text-align: center;
 }
 .testimonials-shudown{
   background: rgba(0,0,0,0.8);
-  padding-bottom: 100px;
+  padding-bottom: calc(9% + 9px);
 }
 .testimonials-header{
   background: url(img/07.png) no-repeat;
   background-position: top center;
-  margin-bottom: 75px;
 }
 .bar-testimonials-content{
   display: flex;
 }
 .central-testimonials{
   position: relative;
+  width: 95%;
+  margin: 0 auto;
 }
 .melina-motto{
   background: #fff;
   height: 100%;
-  color:#000;
-  margin-top: 60px;
-  padding: 25px 95px 25px 65px;
+  color: #000;
+  margin-top: 44px;
+  padding: 34px 46px 25px 40px;
   text-align: left;
   border-bottom: 2px solid rgb(252, 95, 69);
-  padding-bottom: 55px;
+  padding-bottom: 36px;
+  position: relative;
 }
 .melina-motto blockquote{
   position: relative;
@@ -825,7 +813,7 @@ div.vertical-line{
   font-weight: bold;
   color: #f2f2f2;
   position: absolute;
-  left: 95%;
+  left: 88%;
   top: 88%;
 }
 .melina-motto blockquote:after {
@@ -837,27 +825,27 @@ div.vertical-line{
   font-size: 40px;
   font-family: "Tangerine";
   color: rgb(39, 39, 39);
-  margin-top: 15px;
+  margin-top: 27px;
 }
 .melina-motto p:nth-child(3){
    font-size: 18px;
    font-family: "Poppins";
    color: rgb(39, 39, 39);
-   margin-top: 5px;
+   margin-top: 9px;
 }
 .melina-motto p:nth-child(4){
     font-size: 13px;
     font-family: "Poppins";
     color: rgb(252, 95, 69);
-    margin-top: 5px;  
+    margin-top: 7px;  
 }
 .melina-img{
   border: 7px solid grey;
 }
 .bar-testimonials {
   position: absolute;
-  top:91%;
-  left:88%; 
+  top: 91%;
+  left: calc(84% + 26px);
 }
 
 .button {
@@ -892,23 +880,21 @@ div.vertical-line{
   background-position: top center;
   font-family: "Poppins";
 }
-.why-us-header{
-  text-align: center;
-  color: black;
-  margin-bottom: 50px;
-}
-.why-us-header h1{
-   font-size: 32px;
-   font-weight: bolder;
-   margin-bottom: 15px;
-   padding-top: 40px;
-}
 .why-us-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: calc(90% + 87px);
+  margin: auto;
 }
-.why-us-content div{
-  margin-right: 1px;
+.why-us-content>div{
+  width: 316px;
+  margin-bottom: 70px;
+}
+.why-us-content>div img{
+  float:left;
+  padding-right: 19px;
 }
 .why-us-content span{
   font-size: 18px;
@@ -916,6 +902,326 @@ div.vertical-line{
   font-weight: bolder;
 }
 .why-us-content p{
+  clear: both;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 35px;
+  line-height: 25px;
+}
+.bnt-why-us{
+  text-align: center;
+  margin-top: 1px;
+}
+.bnt-why-us>div{
+  display: inline-block;
+}
+.bnt-why-us div:first-child{
+  font-size: 25px;
+  margin-right: 25px;
+}
+.bnt-why-us button{
+  padding: 14px 41px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  background: rgb(252, 95, 69);
+  color: #fff;
+  font-weight: bolder;
+  transition: .7s;
+}
+.bnt-why-us button:hover{
+  color: rgb(252, 95, 69);
+  background: #fff;
+  border-color: rgb(252, 95, 69);
+}
+/*********Why select us? end***********/
+/*********Our blog begin***********/
+.our-blog{
+  background: rgb(247, 247, 247);
+  margin-top: 30px;
+}
+.our-blog .content{
+  background: url(img/09.png) no-repeat;
+  background-position: top center;
+  width: calc(84% + 3px);
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+.left-column{
+  float: left;
+  width: calc(48% + 9px);
+  border-bottom: 3px solid #FC5F44;
+}
+.right-column{
+  float: left;
+  width: calc(50% + 10px);
+}
+/***clearfix for our-blog-content****/
+.our-blog-content:before,.our-blog-content:after{
+  content: '';
+  display: table;
+}
+.our-blog-content:after {
+  clear: both;
+}
+.our-blog-content {
+  clear: both;
+  *zoom: 1;
+} 
+/***********************************/
+.left-column-legend{
+  background: url(img/our_blog.png) no-repeat;
+  height: 443px;
+  position: relative;
+  width: 555px;
+}
+.left-column-legend div{
+  position: absolute;
+}
+.left-column-legend div:first-child{
+  bottom: 5%;
+  left: 4%;
+  font-size: 15px;
+  color: #FC5F44;
+}
+.left-column-legend div:last-child{
+  bottom: 5%;
+  left: 19%;
+  font-size: 13px;
+  color: #fff;
+}
+.our-blog-content-mess{
+  padding: 24px 30px 24px 30px;
+  background: #fff;
+  margin-bottom: 24px;
+  margin-left: 31px;
+  line-height: 27px;
+}
+.left-column-content{
+  padding: 24px 45px 34px 52px;
+  background: #fff;
+  line-height: 27px;
+}
+.mess-author{
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.mess-date{
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 22px;
+}
+.right-column .mess-header{
+  font-size: 18px;
+  color: rgb(39, 39, 39);
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.left-column-content .mess-header{
+  line-height: 35px;
+  font-size: 18px;
+  color: rgb(39, 39, 39);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 17px;
+}
+.mess-content{
+  font-size: 15px;
+}
+.left-column .mess-content a{
+  font-weight: bolder;
+}
+.right-column .our-blog-content-mess:first-child .mess-author,
+.right-column .our-blog-content-mess:first-child .mess-content a{
+  color: #36C796;
+}
+.right-column .our-blog-content-mess:first-child{
+  border-bottom: 3px solid #36C796;
+}
+.right-column .our-blog-content-mess:nth-child(2) .mess-author,
+.right-column .our-blog-content-mess:nth-child(2) .mess-content a{
+  color: #B37DF6;
+}
+.right-column .our-blog-content-mess:nth-child(2){
+  border-bottom: 3px solid #B37DF6;
+}
+.right-column .our-blog-content-mess:nth-child(3) .mess-author,
+.right-column .our-blog-content-mess:nth-child(3) .mess-content a{
+  color: #FEBA60;
+}
+.right-column .our-blog-content-mess:nth-child(3){
+  border-bottom: 3px solid #FEBA60;
+}
+a span{
+  font-size: 10px;
+  letter-spacing: -3px;
+}
+.subscribe-area{
+  background: #fff;
+  margin-top: calc(9% + 6px);
+  text-align: center;
+  font-family: "Poppins";
+  padding: 147px 0;
+}
+.area button{
+  padding: 13px 30px;
+  border-radius: 0 30px 30px 0;
+  border: 2px solid transparent;
+  background: rgb(252, 95, 69);
+  color: #fff;
+  font-weight: bolder;
+  transition: .7s;
+}
+.area button:hover{
+  color: rgb(252, 95, 69);
+  background: #fff;
+  border-color: rgb(252, 95, 69);
+}
+.area input{
+  margin-right: -7px;
+  padding: 13px 53px;
+  border-radius: 30px 0 0 30px;
+  font-size: 15px;
+  border: 0.5px solid #eaeaea;
+ }
+ .area h1{
+  font-size: 29px;
+  margin-bottom: 49px;
+}
+/*********Our blog end***********/
+/*********getInTouch begin***********/
+#getInTouch {
+  background-image: url('img/forest.png');
+  background-position: center;
+  height: 1278px;
+  font-family: "Poppins";
+  margin-top: 7px;
+}
+#getInTouch .content {
+  background: url(img/10.png) no-repeat;
+  background-position: top center;
+}
+#getInTouch .get-in-touch-form {
+  width: 63%;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+}
+#getInTouch .get-in-touch-form input {
+  width: calc(50% - 25px);
+  height: 25px;
+  padding: 9px 4px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 1.2px;
+}
+#getInTouch .get-in-touch-form input:nth-child(even) {
+  float: right;
+}
+#getInTouch .get-in-touch-form input:nth-child(odd) {
+  float: left;
+}
+#getInTouch .get-in-touch-form textarea {
+  width: calc(100% - 25px);
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  resize: none;
+  text-align: center;
+  font-family: "Poppins";
+  height: 175px;
+}
+#getInTouch .get-in-touch-form button{
+  padding: 15px 33px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background: rgb(252, 95, 69);
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transition: .7s;
+  margin-top: 45px;
+  margin-bottom: 85px;
+}
+#getInTouch .get-in-touch-form button:hover{
+  color: rgb(252, 95, 69);
+  background: #fff;
+  border-color: rgb(252, 95, 69);
+}
+
+ #getInTouch .contacts {
+  display: table;
+  width: 95%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 77px;
+  color: #fff;
+}
+#getInTouch .contacts .contacts-block {
+  box-sizing: border-box;
+  height: 211px;
+  width: calc(27% - 23px);
+  float: left;
+  text-align: left;
+  display: inline-block;
+  border-bottom: 2px solid;
+  padding: 15px;
+  font-size: 13px;
+}
+#getInTouch .contacts .contacts-block .contact-logo {
+  width: 60%;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+#getInTouch .contacts .contacts-block p {
+  font-size: 18px;
+  margin: 33px 0;
+  margin-left: 27px;
+}
+#getInTouch .contacts .contacts-block>div{
+  line-height: 26px;
+  font-size: 15px;
+  margin-left: 26px;
+}
+.contacts-block>div img{
+  margin-left: 11px;
+}
+#getInTouch .contacts .contacts-block:nth-child(1) {
+  border-bottom-color: #FC5F44;
+}
+#getInTouch .contacts .contacts-block:nth-child(2) {
+  border-bottom-color: #36C796;
+}
+#getInTouch .contacts .contacts-block:nth-child(3) {
+  border-bottom-color: #B37DF6;
+}
+#getInTouch .contacts .contacts-block:nth-child(4) {
+  border-bottom-color: #FEBA60;
+}
+#getInTouch .contacts .contacts-block:nth-child(2) p {
+  color: #36C796;
+}
+#getInTouch .contacts .contacts-block:nth-child(3) p {
+  color: #B37DF6;
+}
+#getInTouch .contacts .contacts-block:nth-child(4) p {
+  color: #FEBA60;
+}
+
+@media (max-width: 991px) {
+  #getInTouch .contacts,
+  #getInTouch .get-in-touch-form {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #getInTouch .contacts .contacts-block {
+    width: calc(50% - 30px);
+  }
+  #getInTouch .contacts .contacts-block .contact-logo {
+    margin: 0;
+  }
 }
