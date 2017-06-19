@@ -62,6 +62,9 @@ a{
   font-size: 14px;
   font-family: "Poppins";  
 }
+#logo{
+ margin: 22px 32px;
+}
 input[type="checkbox"] {
     display: none;
 }
@@ -71,26 +74,25 @@ nav label {
     cursor: pointer;
     transition: 0.3s;
 }
-nav label:hover{
+nav label:hover {
     color: #32BA8C;
 }
-nav li{
+nav li {
   display: inline-block;
   vertical-align: top;
 }
-nav a{
+nav a {
   margin: 9px;
 }
-#logo{
- margin: 22px 32px;
-}
 nav{
-  margin-right: 21px;
   margin-top: 29px;
 }
-nav a:hover{
-  padding-bottom: 27px;
+nav a:hover {
+  padding-bottom: 25px;
   border-bottom: 2px solid black;
+}
+.mobile-menu {
+  display: none;
 }
 /*********Header-nav end*******************/
 /*********Header begin*******************/
@@ -429,15 +431,19 @@ nav a:hover{
 
 #member-1 .foto{
   background: url(img/member1.png) no-repeat;
+  background-size: cover;
 }
 #member-2 .foto{
   background: url(img/member1.png) no-repeat;
+  background-size: cover;
 }
 #member-3 .foto{
   background: url(img/member1.png) no-repeat;
+  background-size: cover;
 }
 #member-4 .foto{
   background: url(img/member1.png) no-repeat;
+  background-size: cover;
 }
 #member-1 .fotter-line{
   background: url(img/line.png);
@@ -522,7 +528,7 @@ div.vertical-line{
   left: calc(78% + 2px);
 }
 #Team-block{
-  display: block;
+  display: none;
   padding-left: 17px;
 }
  div:hover #Team-block{
@@ -934,11 +940,11 @@ div.vertical-line{
 }
 /*********Why select us? end***********/
 /*********Our blog begin***********/
-.our-blog{
+#our-blog{
   background: rgb(247, 247, 247);
   margin-top: 30px;
 }
-.our-blog .content{
+#our-blog .content{
   background: url(img/09.png) no-repeat;
   background-position: top center;
   width: calc(84% + 3px);
@@ -1211,7 +1217,7 @@ a span{
   color: #FEBA60;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   #getInTouch .contacts,
   #getInTouch .get-in-touch-form {
     width: 100%;
@@ -1224,4 +1230,4 @@ a span{
   #getInTouch .contacts .contacts-block .contact-logo {
     margin: 0;
   }
-}
+}*/
